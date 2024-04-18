@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 header {
@@ -46,7 +47,10 @@ nav span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px
+    justify-content: center;
+    height:550px;
+    padding: 20px;
+    background-image: url('./imgs/intercom_bkg.jpg');
 }
 
 .banner-title-img-box {
@@ -89,13 +93,13 @@ nav span {
     width:1600px;
 }
 
-.services img {
-    height: 350px;
-    width:auto;
+.services h1 {
+    color: #0055a6;
 }
 
-.services h2 {
-    /* height: 40px; */
+.services img {
+    width: 384px;
+    height: 250px;
 }
 
 .service-box-holder {
@@ -108,5 +112,127 @@ nav span {
 .service-box {
     display: flex;
     flex-direction: column;
-    width:fit-content;
+    width: 384px;
+}
+
+.service-box h3 {
+    color: #0055a6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service-box p {
+    word-spacing: 3;
+    line-height: 1.3;
+}
+
+.line-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #0055a6;
+}
+
+.lines {
+    border: 1px solid #ee3a43;
+    width: 650px;
+    height: 2px;
+    margin: 25px;
+}
+
+.join-intercom {
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color:#c5d8ec; 
+    margin-bottom:15px;
+}
+
+.join-intercom-img {
+    min-width:800px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.join-intercom-description {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join-intercom-description-spacer {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: space-between;
+}
+
+.join-intercom-description h2 {
+    font-family: sans-serif;
+    font-size: 2.0rem;
+    color: #0055a6;
+}
+
+.join-intercom-description p {
+    width: 350px;
+    word-spacing: 3;
+    line-height: 1.3;
+}
+
+.join-intercom-description button {
+    background-color: #0055a6;
+    width: 120px;
+    height: 30px;
+    word-spacing: 3;
+    font-weight: 400;
+    border: none;
+    color: white;
+}
+
+.about-intercom {
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    background-color:#c5d8ec;
+}
+
+.about-intercom-img {
+    min-width:800px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.about-intercom-description {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.about-intercom-description-spacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.about-intercom-description h2 {
+    font-family: sans-serif;
+    font-size: 2.0rem;
+    color: #0055a6;
+}
+
+.about-intercom-description p {
+    width: 600px;
+    word-spacing: 3;
+    line-height: 1.5;
 }
