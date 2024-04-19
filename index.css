@@ -50,7 +50,7 @@ nav span {
     justify-content: center;
     height:550px;
     padding: 20px;
-    background-image: url('./imgs/intercom_bkg.jpg');
+    background-image: url('./imgs/index-imgs/intercom_bkg.jpg');
 }
 
 .banner-title-img-box {
@@ -63,7 +63,8 @@ nav span {
     font-size:3.0rem;
     color:white;
     align-self: flex-end;
-    padding-left: 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
 
 .banner-img{
@@ -226,7 +227,7 @@ nav span {
 }
 
 .about-intercom-description h2 {
-    font-family: sans-serif;
+    font-family: 'avenir', sans-serif;
     font-size: 2.0rem;
     color: #0055a6;
 }
@@ -235,4 +236,46 @@ nav span {
     width: 600px;
     word-spacing: 3;
     line-height: 1.5;
+    text-align: justify;
+}
+
+footer {
+    /* background-color: #0055a6;     */
+    background-color:#c5d8ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-spacer {
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-badge-holder {
+    /* display: flex; */
+    align-self: center;
+    justify-self: center;
+}
+
+.footer-badge {
+    align-self: center;
+}
+
+.copyright-text {
+    margin-left: -270px;
+    align-self: end;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.copyright-text h3{
+    color: #0055a6;
+    padding-bottom: 5px;
+}
+
+.copyright-text h4{
+    color: #0055a6;
+    padding-bottom: 10px;
 }
