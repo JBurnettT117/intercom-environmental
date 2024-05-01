@@ -1,0 +1,55 @@
+main {
+    padding: 20px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 30px; /* Add some top margin */
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+main ul {
+    list-style-type: square; /* Use square bullet points */
+    margin-left: 20px; /* Indent the list */
+}
+
+main ul li {
+    margin-bottom: 5px; /* Add some space between list items */
+}
+
+main div {
+    display: flex;
+    justify-content: space-between; /* Align elements in divs */
+    margin-bottom: 10px; /* Add some space between divs */
+}
+
+main div p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Adjust spacing between sections */
+main div + div {
+    margin-top: 20px;
+}
+
+/* Adjust margin for the last h2 */
+main h2:last-child {
+    margin-top: 50px; /* Add more top margin */
+}
