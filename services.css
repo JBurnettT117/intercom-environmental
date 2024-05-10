@@ -41,3 +41,16 @@ main a:hover {
 main div > a {
     text-align: right;
 }
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.service-box{
+    width: 30vw;
+}
