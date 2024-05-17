@@ -1,18 +1,19 @@
 main {
     padding: 20px;
-    width: 1600px;
+    width: 83vw;
     margin: 0 auto;
 }
 
 main h1 {
-    font-size: 28px; /* Increase font size */
-    color: #333;
-    margin-bottom: 20px; /* Add some bottom margin */
+    font-size: 2.0rem; /* Increase font size */
+    color: #0055a6;
+    margin-bottom: 40px; /* Add some bottom margin */
+    margin-top:20px;
 }
 
 main h2 {
     font-size: 24px; /* Increase font size */
-    color: #007bff; /* Blue color */
+    color: #0055a6; /* Blue color */
     margin-bottom: 10px; /* Add some bottom margin */
 }
 
@@ -20,6 +21,16 @@ main p {
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
+}
+
+main li {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 16px;;
+}
+
+main ul {
+    margin-left:20px;
 }
 
 main p span {
@@ -32,9 +43,6 @@ main p + p {
 }
 
 /* Add bullet points for certifications */
-main p br + br {
-    display: none; /* Hide the extra line breaks */
-}
 
 main p br + br + br::before {
     content: "• "; /* Add bullet point */
@@ -47,5 +55,12 @@ main h2:last-child {
 
 /* Highlight "CAN" and "WILL" */
 main p span {
-    color: #28a745; /* Green color */
+    font-style: italic; /* Green color */
+}
+
+.lines {
+    border: 1px solid #ee3a43;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 12px;
 }
