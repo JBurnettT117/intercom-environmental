@@ -54,8 +54,9 @@ main h2:last-child {
     margin-top: 50px; /* Add more top margin */
 }
 
-main ul {
-    color: #666;
+main img {
+    object-fit: contain;
+    padding-right: 10vw;
 }
 
 .lines {

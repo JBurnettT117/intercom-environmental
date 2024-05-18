@@ -9,7 +9,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: 83vw;
     margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@ footer {
 }
 
 .footer-spacer {
-    width: 1600px;
+    width: 83vw;
     display: flex;
     justify-content: space-between;
 }
