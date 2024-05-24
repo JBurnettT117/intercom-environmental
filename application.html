@@ -7,28 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init({
-                    publicKey: "eXdm2PFUlNHaX1wno",
-                    serviceID: "ervice_dk8twbj",
-                });
-            })();
-        </script>
-        <script type="text/javascript">
-            window.onload=function() {
-                document.getElementById('application-form').addEventListener('submit', function(event) {
-                    event.preventDefault();
-                    emailjs.sendForm('contact_service', 'contact_form', this)
-                        .then(() => {
-                            console.log("SUCCESS!!!");
-                        }, (error) => {
-                            console.log('FAILED...', error);
-                        });
-                });
-            }
-        </script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
         <header>
@@ -45,7 +24,7 @@
             </nav>
         </header>
         <main>
-            <form id="application-form" action="mailto:joshuaburnett429@gmail.com" method="POST">
+            <form method="post" action="https://api.web3forms.com/submit" id="application-form">
                 <label for="fname">First Name:</label><br>
                 <input type="text" id="fname" name="fname" required><br><br>
         
@@ -61,6 +40,8 @@
         
                 <label for="address">Address:</label><br>
                 <textarea id="address" name="address" required></textarea><br><br>
+
+                <div class="g-recaptcha" data-sitekey="6LemOecpAAAAAB-E1XZvVJmCWEAn0DAYMlFeYqkn"></div>
         
                 <input type="submit" value="Submit">
             </form>

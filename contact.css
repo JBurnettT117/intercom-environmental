@@ -26,11 +26,15 @@ main form label {
 
 main form input[type="text"],
 main form input[type="checkbox"],
-main form input[type="radio"] {
+main form input[type="radio"],
+main form input[type="tel"],
+main form input[type="email"] {
     margin-bottom: 10px;
 }
 
-main form input[type="text"] {
+main form input[type="text"],
+main form input[type="tel"],
+main form input[type="email"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
